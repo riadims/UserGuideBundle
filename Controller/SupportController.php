@@ -17,7 +17,7 @@ class SupportController extends CommonController
             'contentTemplate' => '@UserGuide/Support/index.html.twig',
             'passthroughVars' => [
                 'activeLink' => 'support_menu',
-                'route'      => 'support_page',
+                'route'      => 'support',
             ],
         ]);
     }

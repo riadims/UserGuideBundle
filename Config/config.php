@@ -21,7 +21,7 @@ return [
             'support' => [
                 'id'        => 'support_menu',
                 'iconClass' => 'fa fa-question-circle-o',
-                'route'     => 'support_page',
+                'route'     => 'support',
                 'label'     => 'Support',
                 'priority'  => 0,
                 'linkAttributes' => [
@@ -38,7 +38,7 @@ return [
 
     'routes' => [
         'main' => [
-            'support_page' => [
+            'support' => [
                 'path'       => '/support',
                 'controller' => 'MauticPlugin\UserGuideBundle\Controller\SupportController::viewAction',
             ],
