@@ -1,0 +1,10 @@
+{
+    "name": "riadims/userguide-bundle",
+    "description": "Adds a User Guide menu item to Mautic.",
+    "type": "mautic-plugin",
+    "autoload": {
+        "psr-4": {
+            "MauticPlugin\\UserGuideBundle\\": ""
+        }
+    }
+}
