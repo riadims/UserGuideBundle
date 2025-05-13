@@ -10,7 +10,7 @@ return [
         'main' => [
             'user_guide' => [
                 'id'        => 'user_guide_menu',
-                'iconClass' => 'fa fa-play-circle-o',
+                'iconClass' => 'ri-play-circle-line',
                 'label'     => 'User Guide',
                 'priority'  => 1,
                 'uri'       => 'https://itmelona.nimbusweb.me/share/10841997/gx1yltzab5b9713kblk0',
@@ -20,7 +20,7 @@ return [
             ],
             'support' => [
                 'id'        => 'support_menu',
-                'iconClass' => 'fa fa-question-circle-o',
+                'iconClass' => 'ri-question-line',
                 'route'     => 'support',
                 'label'     => 'Support',
                 'priority'  => 0,
